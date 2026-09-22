@@ -67,7 +67,30 @@
             padding: 1.5rem;
             color: #718096;
             font-size: 0.9rem;
-        }
+        }    
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }    
+
+        .skill-tag {
+            background-color: #ebf8ff; /* Soft blue background */
+            color: #2b6cb0;            /* Matching primary text color */
+            padding: 6px 14px;
+            border-radius: 20px;       /* Pill shape */
+            font-size: 0.9rem;
+            font-weight: 600;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease;
+        }    
+
+        .skill-tag:hover {
+            transform: translateY(-2px); /* Slight lift effect when hovering */
+            background-color: #bee3f8;
+        }    
     </style>
 </head>
 <body>
@@ -80,10 +103,16 @@
     
 
     <main>
-        <section class="card">
-            <h2>About This Project</h2>
-            <p>This is a starter web page built with HTML and CSS. I'm using it to learn the basics of web development, version control, and GitHub.</p>
-        </section>
+        <div class="skills-container">
+    <span class="skill-tag">MS Word</span>
+    <span class="skill-tag">Excel</span>
+    <span class="skill-tag">PowerPoint</span>
+    <span class="skill-tag">HTML</span>
+    <span class="skill-tag">CSS</span>
+    <span class="skill-tag">JavaScript</span>
+    <span class="skill-tag">Python</span>
+    <span class="skill-tag">Lisp</span>
+</div>    
 
         <section class="card">
             <h2>What I'm Learning</h2>
