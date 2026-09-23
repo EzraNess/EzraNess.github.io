@@ -56,10 +56,7 @@
         h2 {
             color: var(--primary-color);
             margin-top: 0;
-        }
-
-        ul {
-            padding-left: 20px;
+   
         }
 
         footer {
@@ -68,6 +65,20 @@
             color: #718096;
             font-size: 0.9rem;
         }    
+
+        .skills-card {
+            background: var(--card-bg);
+            padding: 1.5rem 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills-card h3 {   
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
 
         .skills-list {
             list-style-type: decimal;
@@ -79,13 +90,13 @@
             margin-bottom: 6px;
         }
 
-        .skills-list li span {
-            background-color: #ebf8ff; /* Soft blue highlight background */
-            color: #2b6cb0;            /* Matching primary text color */
+       .skill-highlight {
+            background-color: #ebf8ff; /* Soft blue highlight */
+            color: #2b6cb0;            /* Darker blue text */
             padding: 3px 8px;
             border-radius: 4px;
             font-weight: 600;
-        }        
+        }      
     </style>
 </head>
 <body>
@@ -94,20 +105,23 @@
         <h1>Hello, World!</h1>
         <!-- Put your one-sentence introduction right here inside the header -->
         <p> I'm an aspiring accountant and Rutgers University student with a strong foundation in financial accounting, GAAP, and taxation, eager to bridge business analysis with modern web technologies.</p>
-    </header>   
-    
+    </header>     
 
-    <main>
-        <ol>    
-    <li>MS Word</li>   
-    <li>Excel</li>
-    <li>PowerPoint</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>    
-    <li>Python</li>   
-    <li>Lisp</li>    
-        </ol>    
+    <main>  
+        <!-- Skills placed inside a clean card with highlighted items -->
+        <section class="skills-card">
+            <h3>Skills</h3>
+            <ol class="skills-list">     
+                <li><span class="skill-highlight">MS Word</span></li>
+                <li><span class="skill-highlight">Excel</span></li>
+                <li><span class="skill-highlight">PowerPoint</span></li>
+                <li><span class="skill-highlight">HTML</span></li>
+                <li><span class="skill-highlight">CSS</span></li>
+                <li><span class="skill-highlight">JavaScript</span></li>
+                <li><span class="skill-highlight">Python</span></li>
+                <li><span class="skill-highlight">Lisp</span></li>   
+            </ol> 
+        </section>   
 
         <section class="card">
             <h2>Projects</h2>   
