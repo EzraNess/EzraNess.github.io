@@ -69,28 +69,23 @@
             font-size: 0.9rem;
         }    
 
-        .skills-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 15px;
-        }    
+        .skills-list {
+            list-style-type: decimal;
+            padding-left: 20px;
+            margin-bottom: 1.5rem;
+        }
 
-        .skill-tag {
-            background-color: #ebf8ff; /* Soft blue background */
+        .skills-list li {
+            margin-bottom: 6px;
+        }
+
+        .skills-list li span {
+            background-color: #ebf8ff; /* Soft blue highlight background */
             color: #2b6cb0;            /* Matching primary text color */
-            padding: 6px 14px;
-            border-radius: 20px;       /* Pill shape */
-            font-size: 0.9rem;
+            padding: 3px 8px;
+            border-radius: 4px;
             font-weight: 600;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-            transition: transform 0.2s ease;
-        }    
-
-        .skill-tag:hover {
-            transform: translateY(-2px); /* Slight lift effect when hovering */
-            background-color: #bee3f8;
-        }    
+        }        
     </style>
 </head>
 <body>
