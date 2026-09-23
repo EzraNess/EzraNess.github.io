@@ -1,7 +1,5 @@
 # EzraNess.github.io
 
-# Hello, World!
-
 I'm an aspiring accountant and Rutgers University student with a strong foundation in financial accounting, GAAP, and taxation, eager to bridge business analysis with modern web technologies.
 
 ---
